@@ -36,7 +36,7 @@ Koji god da se izabere, mora zaista da ispunjava FAIR zahteve, a ne samo da čuv
 **Primer teksta:** *"This project will generate a primary dataset consisting of raw and derived measurements from the \[instrument X\], estimated at approximately \[X GB\], alongside a software/code output implementing the analysis pipeline used to produce the derived data. In addition, the project will reuse a third-party dataset from \[source/partner\], obtained under \[licence/agreement type\], to \[purpose, e.g. validate/complement the generated data\]."*
 
 * Ako projekat ponovo koristi podatke trećih strana ili partnerske institucije (verovatno u zajedničkom projektu), to treba eksplicitno navesti ovde i naznačiti sve uslove vezane za ponovnu upotrebu — to se dalje odražava i na odgovor za *Accessible* niže u tekstu.  
-* Ako zapremina zaista nije poznata u fazi prijave (čest slučaj kod istraživačkog/eksplorativnog rada), dati procenu reda veličine umesto preskakanja pitanja. "Mala zapremina, procenjeno ispod 1 GB" je sasvim prihvatljiv odgovor.
+* Ako veličina podataka zaista nije poznata u fazi prijave (čest slučaj), dati procenu reda veličine umesto preskakanja pitanja. "Veličina podataka je procenjena ispod 1 GB" je sasvim prihvatljiv odgovor.
 
 ## **2\. Findability**
 
