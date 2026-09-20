@@ -7,7 +7,7 @@
 
 *U delovima* “Primer teksta” *su dati neki primeri rečenica koje možete iskoristiti pod uslovom da ih uklopite u svoj narativ. Ovo su samo kratki primeri sa izmišljenim scenarijom u kojem projekat ima tri tipa rezultata: dva skupa podataka (jedan koji je generisan u okviru samog istraživanja i drugi koji već postoji i “pozajmljuje” se za ovaj projekat) i računarski kod koji je neophodan za manipulaciju i rad samih podataka. Vaši primeri mogu biti iscrpniji u detaljima.*
 
-*Koristite ove smernice pre svega kako biste razumeli šta se u ovom delu prijave od vas traži, a za sva pitanja možete se obratiti za savet bibliotekarima na [biblioteka@vin.bg.ac.rs](mailto:biblioteka@vin.bg.ac.rs) ili [obrad.vuckovac@vin.bg.ac.rs](mailto:obrad.vuckovac@vin.bg.ac.rs).*
+*Koristite ove smernice pre svega kako biste razumeli šta se u ovom delu prijave od vas traži, a za sva pitanja možete se uvek obratiti za savet bibliotekarima na [biblioteka@vin.bg.ac.rs](mailto:biblioteka@vin.bg.ac.rs) ili [obrad.vuckovac@vin.bg.ac.rs](mailto:obrad.vuckovac@vin.bg.ac.rs).*
 
 ## **Početna napomena: čemu ova sekcija zapravo služi**
 
@@ -19,7 +19,9 @@ Recenzenti ovde proveravaju dve stvari: da li podnosilac razume šta FAIR znači
 
 ## **Prvo rešiti izbor repozitorijuma**
 
-Izbor repozitorijuma utiče na sva četiri FAIR principa, pa ovo treba rešiti sa učesnicima na projektu pre pisanja bilo kog od ta dva odgovora.
+Izbor repozitorijuma utiče na sva četiri FAIR principa, pa ovo treba rešiti sa učesnicima na projektu pre pisanja bilo kog od ta dva odgovora.   
+
+**Repozitorijumi** su specijalizovani informacioni sistemi namenjeni dugoročnom čuvanju, opisivanju i omogućavanju pristupa istraživačkim podacima, softveru i drugim rezultatima istraživanja. Za razliku od mrežnog diska ili lokalnog računara, repozitorijum garantuje stabilnost, kontinuitet i infrastrukturu potrebnu da podaci ostanu dostupni i razumljivi godinama nakon završetka projekta. Njihova uloga u upravljanju podacima je centralna: oni preuzimaju odgovornost za čuvanje podataka nakon što istraživač završi aktivan rad na projektu, obezbeđuju da svaki zapis ima svoj trajni identifikator (PID) poput DOI-ja ili Handle-a, i standardizuju način na koji se podaci opisuju kroz metapodatke, čime postaju vidljivi i pronalažljivi kako za ljude, tako i za mašine. Upravo izbor repozitorijuma direktno određuje koliko će podaci zaista biti FAIR-spremni: repozitorijum koji dodeljuje PID, koristi prepoznatljiv standard za metapodatke, omogućava izvoz metapodataka (npr. putem OAI-PMH ili REST API-ja), i podržava mašinski čitljive licence u velikom delu ispunjava sve četiri FAIR komponente sam po sebi, dok skladištenje podataka van repozitorijuma, makar podaci bili tehnički "dostupni" na zahtev, obično ne zadovoljava nijednu od njih na zadovoljavajući način. [*Platforma za otvorenu nauku 2.0*](https://nitra.gov.rs/images/nauka/TONuS-Platforma_2.0-Final.pdf) Ministarstva nauke, tehnološkog razvoja i inovacija Republike Srbije izričito traži deponovanje i čuvanje podataka u proverenim repozitorijuma i u skladu sa FAIR principima.
 
 Pri izboru repozitorijuma vodite se navikama svoje ciljane publike. Preporuka je da sledite sledeću logiku:
 
@@ -37,6 +39,7 @@ Koji god da se izabere, mora zaista da ispunjava FAIR zahteve, a ne samo da čuv
 
 * Ako projekat ponovo koristi podatke trećih strana ili partnerske institucije (verovatno u zajedničkom projektu), to treba eksplicitno navesti ovde i naznačiti sve uslove vezane za ponovnu upotrebu — to se dalje odražava i na odgovor za *Accessible* niže u tekstu.  
 * Ako veličina podataka zaista nije poznata u fazi prijave (čest slučaj), dati procenu reda veličine umesto preskakanja pitanja. "Veličina podataka je procenjena ispod 1 GB" je sasvim prihvatljiv odgovor.
+* U ovom delu možete objasniti i koje ćete metode koristiti za organizaciju fajlova i foldera, iako se to u ovom delu ne traži. To pitanje imaćete svakako prilikom pisanja DMP-a, a ovde taj proces možete objasniti u par rečenica ukoliko to prostor za pisanje dozvoljava.
 
 ## **2\. Findability**
 
@@ -79,7 +82,9 @@ Ipak, treba znati da je prema članu 47 stav 3 Akta Zajedničkog istraživačkog
 
 **Šta se pita:** standardi, formati i rečnici za podatke i metapodatke.
 
-**Primer teksta:** *"Raw instrument data from \[instrument X\] will be converted from its native/proprietary output format to \[open format, e.g. CSV, HDF5\] for deposit, with derived data described using \[metadata standard\]. The analysis code will include a README and dependency manifest (e.g. requirements.txt/environment.yml) to document the software environment needed to reproduce the derived data from the raw data. The reused third-party dataset is provided in \[format\]; where necessary, this project's derived outputs will note any transformation applied to it for interoperability with the generated data."* 
+**Primer teksta:** *"Raw instrument data from \[instrument X\] will be converted from its native/proprietary output format to \[open format, e.g. CSV, HDF5\] for deposit, with derived data described using \[metadata standard\]. The analysis code will include a README and dependency manifest (e.g. requirements.txt/environment.yml) to document the software environment needed to reproduce the derived data from the raw data. The reused third-party dataset is provided in \[format\]; where necessary, this project's derived outputs will note any transformation applied to it for interoperability with the generated data."*   
+
+Repozitorijum koji koristite za čuvanje podataka opisuje podatke u skladu sa nekim od standardizovanih metapodataka. Tu informaciju možete najčešće naći u politikama na samom sajtu ili u delovima koji bliže opisuju rad i funkcionisanje samog repozitorijma.  
 
 Specifičnosti VinaR-a: metapodaci su standardizovani prema **Qualified Dublin Core** šemi, a zapisi su dostupni i preko **OAI-PMH** protokola i preko **REST API-ja**, što omogućava spoljnim agregatorima (OpenAIRE, BASE, CORE) da automatski preuzmu zapis. Ako se deponuje u VinaR, jedna rečenica koja pominje Dublin Core i mehanizam agregacije u potpunosti pokriva ovu podtačku.
 
