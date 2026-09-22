@@ -25,7 +25,7 @@ Izbor repozitorijuma utiče na sva četiri FAIR principa, pa ovo treba rešiti s
 
 Pri izboru repozitorijuma vodite se navikama svoje ciljane publike. Preporuka je da sledite sledeću logiku:
 
-1. **Prepoznati disciplinski repozitorijum**, ukoliko postoji za dati tip podataka (npr. PDB ili EMDB za strukturnu biologiju, Materials Cloud ili NOMAD za podatke iz nauke o materijalima, GenBank/ENA za sekvence). Recenzenti iz relevantne oblasti će ih prepoznati, a ovo povećava šansu da podaci zaista budu ponovo upotrebljeni od strane onih kojima bi bili korisni.  
+1. **Prepoznati disciplinski (ili tematski) repozitorijum**, ukoliko postoji za dati tip podataka (npr. PDB ili EMDB za strukturnu biologiju, Materials Cloud ili NOMAD za podatke iz nauke o materijalima, GenBank/ENA za sekvence). Recenzenti iz relevantne oblasti će ih prepoznati, a ovo povećava šansu da podaci zaista budu ponovo upotrebljeni od strane onih kojima bi bili korisni.  
 2. **VinaR** (repozitorijum Instituta “Vinča”) — [https://vinar.vin.bg.ac.rs/](https://vinar.vin.bg.ac.rs/) —, kada ne postoji odgovarajući disciplinski repozitorijum, ili kao sekundarno deponovanje uz disciplinski repozitorijum radi institucionalne vidljivosti i efikasnijeg praćenja rezultata.  
 3. **Opšti repozitorijum** (Zenodo, OSF, Figshare) — čest slučaj za mešovite rezultate, softver, ili skupove podataka premale ili preheterogene za disciplinski arhiv.
 
