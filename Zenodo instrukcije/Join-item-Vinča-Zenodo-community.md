@@ -13,7 +13,7 @@ Za svaku pomoć ili podršku možete se obratiti bibliotekarima dolaskom u Bibli
 2. kliknuti na "zupčanik" (1)  
 	- kliknuti na dugme **+ Submit to community** (2)
 
-	![select-community](IMG/join-zenodo/join-zenodo-koraci-1-2.PNG)
+	![select-community]([IMG/join-zenodo/join-zenodo-koraci-1-2.PNG](https://github.com/obrad1984/Open-Science-guides-Vinca/blob/23a14492f935414c1e8cbf4b47287a7aacedb4d5/IMG/join-zenodo/join-zenodo-koraci-1-2.PNG))
 
 3. u polju za pretragu zajednica kucati *vinca* ili *vinča* (3) i kliknuti na lupicu ili pritisnuti *Enter* (4)
    ![find-community](IMG/join-zenodo/join-zenodo-koraci-3-5.PNG)
